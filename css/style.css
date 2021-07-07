@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    
+    background: rgb(75,0,130);
+    background: linear-gradient(180deg, rgba(75,0,130,1) 0%, rgba(102,0,130,1) 25%, rgba(126,0,130,1) 50%, rgba(130,0,62,1) 75%, rgba(130,0,22,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2{
+    color: white;
+    font-weight: 100;
+    font-size: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    
+}
+.profile{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.photo{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:0 0 100px rgb(0, 0, 0); 
+}
+
+.social-links{
+
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.social{
+    list-style: none;
+}
+.social li{
+    margin: 20px 20px;
+}
+.social li a{
+    display: block;
+    background-color: indigo;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    color: white;
+
+}
